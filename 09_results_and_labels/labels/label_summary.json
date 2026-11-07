@@ -1,0 +1,41 @@
+{
+  "reach_min": 15,
+  "cut_points": [
+    46.666666666666664,
+    56.666666666666615
+  ],
+  "responses": 91,
+  "windows": 5119,
+  "per_user": [
+    {
+      "user": "user17",
+      "responses": 13,
+      "responses_matched": 13,
+      "windows": 705
+    },
+    {
+      "user": "user18",
+      "responses": 31,
+      "responses_matched": 28,
+      "windows": 1649
+    },
+    {
+      "user": "user25",
+      "responses": 23,
+      "responses_matched": 23,
+      "windows": 1329
+    },
+    {
+      "user": "user26",
+      "responses": 18,
+      "responses_matched": 18,
+      "windows": 1076
+    },
+    {
+      "user": "user27",
+      "responses": 6,
+      "responses_matched": 6,
+      "windows": 360
+    }
+  ]
+}

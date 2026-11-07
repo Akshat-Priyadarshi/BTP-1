@@ -1,10 +1,19 @@
-data/
-runs/
-mentor_files/
-*.xlsx
-*.avro
-*.pkl
-!checkpoints/**/*.pkl
+# python / notebooks
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.venv/
+.env
+# big or raw data (never commit)
+data/raw/
+data/processed/
+data/assembled/
+runs/
+*.zip
+# PARTICIPANT DATA: wearers' physiological signals and survey answers.
+# Remove these lines only if every participant has agreed to public release.
+07_demo_and_inference/demo_sessions_pack/user*/
+07_demo_and_inference/demo_sessions_pack/reference_*.csv
+09_results_and_labels/labels/*.csv
+09_results_and_labels/comparisons/csv/answers_*.csv
+09_results_and_labels/comparisons/Actual_vs_Detected_Stress.xlsx

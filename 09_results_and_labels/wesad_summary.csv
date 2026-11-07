@@ -1,0 +1,8 @@
+context_mode,epoch_reported,n_runs,accuracy,accuracy_spread,balanced_accuracy,balanced_spread,macro_f1,macro_f1_spread,mean_gate,guessing_baseline,run_ids
+derived,last,7,0.517,0.081,0.43,0.035,0.416,0.037,0.522,0.516,R03L_wesad_context_derived_last;R07_wesad_wrist_derived;R0L_derived_seed1;R0L_derived_seed2;W_derived_seed1;W_derived_seed2;W_derived_seed42
+derived,val,1,0.516,0.0,0.353,0.0,0.275,0.0,0.511,0.516,R03_wesad_context_derived
+none,last,7,0.577,0.121,0.445,0.059,0.389,0.123,0.672,0.516,R01L_wesad_nocontext_last;R05_wesad_wrist_nocontext;R0L_none_seed1;R0L_none_seed2;W_none_seed1;W_none_seed2;W_none_seed42
+none,val,2,0.516,0.0,0.333,0.0,0.227,0.0,0.492,0.516,R01_wesad_nocontext;R01b_wesad_nocontext_noskew
+original,last,3,0.71,0.056,0.6,0.026,0.603,0.04,0.455,0.516,R02L_wesad_context_original_last;R0L_original_seed1;R0L_original_seed2
+original,val,1,0.565,0.0,0.384,0.0,0.336,0.0,0.45,0.516,R02_wesad_context_original
+zero,last,7,0.685,0.089,0.576,0.073,0.577,0.079,0.448,0.516,R04L_wesad_context_zero_last;R06_wesad_wrist_zero;R0L_zero_seed1;R0L_zero_seed2;W_zero_seed1;W_zero_seed2;W_zero_seed42

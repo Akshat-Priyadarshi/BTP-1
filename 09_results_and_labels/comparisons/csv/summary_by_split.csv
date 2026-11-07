@@ -1,0 +1,9 @@
+Split,Model,Answers,Exact match (accuracy),Balanced accuracy,Balanced acc. 95% CI,Within one class,Rank corr. score vs STAI-6,Rank corr. 95% CI,Always-commonest accuracy,Chance (balanced acc.),Window-level balanced acc.
+Random split of windows (recall),signals only,88,0.602,0.595,0.50 to 0.69,0.841,0.349,0.15 to 0.52,0.375,0.333,0.54
+Random split of windows (recall),signals + context,88,0.977,0.976,0.94 to 1.00,0.989,0.866,0.82 to 0.89,0.375,0.333,0.836
+Answers kept whole,signals only,57,0.474,0.477,0.35 to 0.60,0.807,-0.039,-0.32 to 0.24,0.351,0.333,0.436
+Answers kept whole,signals + context,57,0.368,0.372,0.25 to 0.50,0.667,-0.18,-0.45 to 0.12,0.351,0.333,0.36
+A person never seen,signals only,88,0.159,0.15,0.09 to 0.22,0.659,-0.564,-0.71 to -0.38,0.375,0.333,0.24
+A person never seen,signals + context,88,0.148,0.139,0.08 to 0.21,0.625,-0.456,-0.61 to -0.27,0.375,0.333,0.244
+"Earlier train, later test",signals only,26,0.538,0.558,0.37 to 0.74,0.923,0.119,-0.39 to 0.52,0.385,0.333,0.524
+"Earlier train, later test",signals + context,26,0.5,0.5,0.30 to 0.68,0.846,0.289,-0.13 to 0.63,0.385,0.333,0.488

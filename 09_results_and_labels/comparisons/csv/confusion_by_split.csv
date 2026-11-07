@@ -1,0 +1,25 @@
+Split,Model,Actual (STAI-6 class),Detected Low,Detected Medium,Detected High,Answers,Correct
+Random split of windows (recall),signals only,Low,25,5,3,33,25/33
+Random split of windows (recall),signals only,Medium,7,20,0,27,20/27
+Random split of windows (recall),signals only,High,11,9,8,28,8/28
+Random split of windows (recall),signals + context,Low,33,0,0,33,33/33
+Random split of windows (recall),signals + context,Medium,0,27,0,27,27/27
+Random split of windows (recall),signals + context,High,1,1,26,28,26/28
+Answers kept whole,signals only,Low,10,8,2,20,10/20
+Answers kept whole,signals only,Medium,4,12,2,18,12/18
+Answers kept whole,signals only,High,9,5,5,19,5/19
+Answers kept whole,signals + context,Low,6,5,9,20,6/20
+Answers kept whole,signals + context,Medium,6,9,3,18,9/18
+Answers kept whole,signals + context,High,10,3,6,19,6/19
+A person never seen,signals only,Low,10,12,11,33,10/33
+A person never seen,signals only,Medium,24,2,1,27,2/27
+A person never seen,signals only,High,19,7,2,28,2/28
+A person never seen,signals + context,Low,9,9,15,33,9/33
+A person never seen,signals + context,Medium,14,2,11,27,2/27
+A person never seen,signals + context,High,18,8,2,28,2/28
+"Earlier train, later test",signals only,Low,5,3,0,8,5/8
+"Earlier train, later test",signals only,Medium,1,6,1,8,6/8
+"Earlier train, later test",signals only,High,2,5,3,10,3/10
+"Earlier train, later test",signals + context,Low,5,1,2,8,5/8
+"Earlier train, later test",signals + context,Medium,2,3,3,8,3/8
+"Earlier train, later test",signals + context,High,2,3,5,10,5/10
